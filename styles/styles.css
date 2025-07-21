@@ -1,61 +1,70 @@
+:root {
+   --height: auto;
+   --real-color: darkblue;  color: white;
+   --list-paddiing: padding 10px; padding: 20px; padding: 2px; padding: 1rem; padding: 0;
+   --list-width: width 150px; max-width: 840px; width: 20rem; width: 200px;
+   --text-align: centre;
+   --border-list: border: 1px solid black; border: 1px solid rgb(0 0 0 / 0.2); /* 1 */ border-top: 1px solid #000;
+}
+
 nav {
-    background-color: darkblue;
-    padding: 10px;
+    background-color: var(--real-color) darkblue;
+    padding: var(--list-paddiing);
 }
 
 nav a {
-    color: white;
+    color: var(--real-color) white;
     display: block;
-    padding: 20px;
+    padding: var(--list-paddiing) 20px;
 }
 
 h1 {
-    color: darkblue;
+    color: var(--real-color) darkblue;
 }
 
 img {
-    width: 150px;
-    height: auto;
-    border: 1px solid black;
-    padding: 2px;
+    width: var(--list-width);
+    height: var(--height);
+    border: var(--border-list) solid black;
+    padding: var(--list-paddiing);
     box-shadow: 0 0 30px gray;
 }
 
 p {
-    padding: 10px;
+    padding: var(--list-paddiing);
 }
 
 main {
-    max-width: 840px;
+    max-width: var(--list-width) 840px;
 }
 
 aside {
-    width: 20rem;
+    width: var(--list-width);
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2); /* 1 */
-    padding: 1rem;
+    border: var(--border-list) solid rgb(0 0 0 / 0.2); /* 1 */
+    padding: var(--list-paddiing);
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: var(--text-align);
 }
 
 aside img {
-    width: 200px;
-    height: auto;
+    width: var(--list-width);
+    height: var(--height);
 }
 
 main img {
-    width: 150px;
-    height: auto;
+    width: var(--list-width);
+    height: var(--height);
 
 }
 
 p {
-    padding: 0;
+    padding: var(--list-paddiing);
 }
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
+    border-top: var(--border-list) solid #000;
+    text-align: var(--text-align);
 }
