@@ -1,4 +1,9 @@
-:root {
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rock+Salt&display=swap');
+
+
+
+/* :root { */
    --height: auto;
    --real-color: darkblue;  color: white;
    --list-paddiing: padding 10px; padding: 20px; padding: 2px; padding: 1rem; padding: 0;
@@ -19,7 +24,9 @@ nav a {
 }
 
 h1 {
+    font-family: 'Rock Salt';
     color: var(--real-color) darkblue;
+    
 }
 
 img {
@@ -28,6 +35,10 @@ img {
     border: var(--border-list) solid black;
     padding: var(--list-paddiing);
     box-shadow: 0 0 30px gray;
+}
+
+body {
+    font-family: Roboto;
 }
 
 p {
