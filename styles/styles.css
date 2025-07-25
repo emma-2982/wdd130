@@ -24,7 +24,7 @@ nav a {
 }
 
 h1 {
-    font-family: 'Rock Salt';
+    font-family: 'Rock Salt' 'Bradley Hand' 'sans-serif';
     color: var(--real-color) darkblue;
     
 }
@@ -38,7 +38,7 @@ img {
 }
 
 body {
-    font-family: Roboto;
+    font-family: Roboto Havetica, sans-serif;
 }
 
 p {
