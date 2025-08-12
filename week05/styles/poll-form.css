@@ -103,3 +103,14 @@ footer {
 .column2 {
   grid-template-columns: 1fr 2fr;
 }
+
+input[type="text"], */
+input[type="email"],
+select,
+textarea {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
