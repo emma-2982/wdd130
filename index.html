@@ -1,40 +1,66 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device,initial-scale=1.0">
-    <title>Emmanuel Kofi Teye | WDD 130</title>
-    <meta name="description"
-        content="Emmanuel Kofi Teye, Web Design and Developmeng(WDD 130), Skills to use html and css to structure and design web page. ">
-    <meta name="author" content="Emmanuel Kofi Teye">
-    <link rel="stylesheet" href="styles/rafting.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>White Water Rafting</title>
+  <link rel="stylesheet" href="styles/rafting.css" />
 </head>
-
 <body>
-    <header>
-        <nav>
-            <a href="#">Home</a>
-            <a href="wwr/">Rafting Website</a>
-        </nav>
-    </header>
-    <main>
-        <h1>Emmanuel Kofi Teye | WDD 130</h1>
-        <img src="images/profile.jpg" alt="Hello, my name is Emmanuel Kofi Teye" width="200">
-        <p>Hello! My name is Emmanuel Kofi Teye and I am from Accra, Ghana. I served a full time mission back in 2012,
-            and I enjoy learing through gospel sharing. Ask me any question about the gospel of Jesus Christ. Let's
-            learn! Currently am studying software engineering at BYU Idaho. It is a great and wonderful experience.</p>
-    </main>
-    <aside>
-        <h2>Ghana</h2>
-        <img src="images/ghana.jpg" alt="accra-ghana">
-        <p>Ghana is a country in the western part of Africa. The capital is called Accra which is also one of the total
-            ten regions in the country. Ghana is rich in natural resources the most common is Gold among others. The
-            country is well known for its peaceful observance and beautiful people.</p>
-    </aside>
-    <footer>
-        <p>©️2025 🌴 Emmanuel Kofi Teye 🌴 Accra, Ghana</p>
-    </footer>
-</body>
+  <header>
+    <h1>White Water Rafting</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="trips.html">Trips</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <section class="hero">
+      <img src="images/hero.jpg" alt="Rafting Adventure" />
+      <h2 class="hero-text">Experience the Thrill of White Water Rafting</h2>
+    </section>
+
+    <section class="newsletter">
+      <h3>Sign Up for Our Newsletter</h3>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+
+    <section class="cta">
+      <h3>Ready for an Adventure?</h3>
+      <p>Explore our exciting trip packages and find the perfect rafting experience for you.</p>
+      <a href="trips.html" class="btn">View Trips</a>
+    </section>
+
+    
+    <section class="grid-info">
+      <div class="grid-item">
+        <img src="images/tour.jpg" alt="Rafting Fun" />
+        <p>Our guided tours offer safe and thrilling experiences for all skill levels.</p>
+      </div>
+      <div class="grid-item">
+        <img src="images/scenery.jpg" alt="River Adventure" />
+        <p>Discover breathtaking scenery and unforgettable moments on the river.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 White Water Rafting</p>
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a> |
+      <a href="trips.html">Trips</a>
+    </nav>
+  </footer>
+</body>
 </html>
